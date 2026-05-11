@@ -4,34 +4,16 @@ body{
     margin:0; 
     padding:0;
     /* Background colors ? */
-    background:linear-gradient(to top, crimson, firebrick);
+    background-color: firebrick;
     /* Text styles */
-    font-family: Georgia, serif;
+    font-family: comic sans ms;
     color:white;
-    -webkit-text-stroke:1px black;
+    -webkit-text-stroke:0.65px white;
 }
-/* NAV! IGNORE! */
-.grandpa {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333333;
-    margin-bottom:10px;
+/* NO MORE SCROLLBARS!!! */
+body::-webkit-scrollbar {
+  display: none;
 }
-.grandpa, .dad {
-    float: left;
-}
-.son{
-    font-weight:bold;
-}
-.grandpa, .dad, .son {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-.grandpa, .dad, .son:hover {
-    background-color:grey;
+body {
+  scrollbar-width: none;
 }
