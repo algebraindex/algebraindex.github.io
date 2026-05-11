@@ -17,3 +17,8 @@ body::-webkit-scrollbar {
 body {
   scrollbar-width: none;
 }
+article{
+    background-color: white;
+    padding:7px;
+    margin:20px
+}

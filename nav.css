@@ -25,3 +25,9 @@
 .son:hover{
     background-color:black
 }
+#logo{
+    text-decoration: 1px wavy underline;
+}
+#logo-brain{
+    color:pink;
+}
